@@ -6,12 +6,14 @@ import { Option } from "@/components/Select/Option";
 
 export const Form = () => {
   return (
-    <div>
-      <Select>
+    <div style={{ padding: "30px" }}>
+      <Select placeholder="Select Component...">
         <Header>Users list...</Header>
         <Option value="1">1</Option>
         <Option value="2">2</Option>
-        <Body>There is a badge or something else...</Body>
+        <Body>
+          <span>There is a badge or something else...</span>
+        </Body>
         <Option value="3">3</Option>
         <Footer>All rights reserved.</Footer>
       </Select>

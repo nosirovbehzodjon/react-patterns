@@ -1,0 +1,25 @@
+.select {
+  // Add your div styles here
+  height: 40px;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; // Ensures padding and border are included in the width
+  width: 100%;
+  font-size: 16px; // Example font size
+
+  &:focus {
+    outline: none;
+    border-color: #007bff; // Example color when "focused"
+  }
+  .collapse {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    left: 0;
+    top: 45px;
+    width: 100%;
+    max-height: 200px;
+  }
+}
