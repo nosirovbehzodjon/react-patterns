@@ -1,6 +1,6 @@
-import { useCounter } from "../context/counter";
+import { useCounter } from "@/context/counter";
 
-const ActionCounter = () => {
+export const ActionCounter = () => {
   const { increment, decrement } = useCounter();
   return (
     <div>
@@ -9,5 +9,3 @@ const ActionCounter = () => {
     </div>
   );
 };
-
-export default ActionCounter;
